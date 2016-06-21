@@ -67,4 +67,4 @@ TARGET_SYSTEM_PROP += device/sony/shinano/system.prop
 # SELinux
 BOARD_SEPOLICY_DIRS += device/sony/shinano-common/sepolicy
 
-include device/sony/common/CommonConfigOmni.mk
+include device/sony/common/CommonConfigDu.mk
