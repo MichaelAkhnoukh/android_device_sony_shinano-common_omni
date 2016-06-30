@@ -31,7 +31,7 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset $(BOARD_RAMDISK_OFFSET) --tags_offset $
 
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 
-KERNEL_TOOLCHAIN        := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/bin
+KERNEL_TOOLCHAIN        := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-4.9/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
 BOARD_CACHEIMAGE_PARTITION_SIZE := 209715200
