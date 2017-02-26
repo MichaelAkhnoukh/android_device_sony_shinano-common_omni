@@ -76,4 +76,4 @@ TARGET_SYSTEM_PROP += $(PLATFORM_COMMON_PATH)/system.prop
 # SELinux
 BOARD_SEPOLICY_DIRS += $(PLATFORM_COMMON_PATH)/sepolicy
 
-include device/sony/common/CommonConfigOmni.mk
+include device/sony/common/CommonConfigDU.mk
